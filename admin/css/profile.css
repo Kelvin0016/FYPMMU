@@ -1,0 +1,177 @@
+a,.form-group#membership .membership-selection li{
+	-webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+	-ms-transition: all 0.35s ease;
+	-o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+a:hover, a:focus, a:active{
+	outline: none;
+}
+.user-profile{
+	padding: 70px 0;
+}
+.prof-pic{
+	text-align: center;	
+	overflow: hidden;
+	padding: 0 50px;
+}
+.prof-pic .prof-pic-col{
+	width: 200px;
+	margin: 0 auto 15px;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #efefef;
+}
+.prof-pic .prof-pic-col img{
+	width: 100%;
+}
+.prof-pic .prof-pic-upload-col input{
+	margin-left: 25px;
+}
+.generalTitle{
+	position: relative;
+}
+.generalTitle.title-line::before{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -25px;
+	width: 100%;
+	height: 3px;
+	background-color: #000000;
+}
+.generalTitle h2{
+	margin-bottom: 50px;
+}
+.form-group p{
+	margin-bottom: 0;
+}
+.profile-body{
+	padding: 0 25px;
+}
+.profile-body .nav-tabs{
+	border-bottom: none;
+	text-align: right;
+	padding: 30px 0;
+}
+.profile-body .nav-tabs .nav-item{
+	display: inline;
+}
+.profile-body .nav-tabs .nav-item .nav-link{
+	color: #ffffff;
+	border-radius: 5px;
+}
+.profile-body .nav-tabs .nav-item+.nav-item{
+	margin-left: 8px;
+}
+.profile-body .nav-tabs .nav-item .btn-switch{
+	background-color: #2DAAFF;
+}
+.profile-body .nav-tabs .nav-item .btn-cancel{
+	background-color: #FF0000;
+}
+.form-submit .form-group{
+	margin-bottom: 35px;
+}
+.form-group{
+	position: relative;
+	align-items: center;
+}
+.form-group label,.profile-body .tab-content .tab-pane .user-info .form-group p.label{
+	display: block;
+	width: 100%;
+	max-width: 250px;
+}
+.form-group input, .membership-input{
+	width: 100%;
+	border: 1px solid #efefef;
+	background-color: #efefef;
+	padding: 5px 15px;
+}
+.membership-input{position: relative;}
+.membership-input i{
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+.form-group#membership .membership-selection{
+	position: absolute;
+	top: 38px;
+	left: 250px;
+	right: 0;
+	background-color: #efefef;
+	list-style: none;
+	padding-inline-start: 0px;
+	display: none;
+}
+.form-group#membership .membership-selection li{
+	position: relative;
+	padding: 8px 25px;
+}
+.form-group#membership .membership-selection li+li::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	width: calc( 100% - 30px );
+	height: 1px;
+	background: #cecece;
+}
+.form-group#membership .membership-selection li:hover{
+	background-color: #cecece;
+}
+.membership-input, .membership-selection li{
+	cursor: pointer;
+}
+.error{
+	position: absolute;
+	bottom: 0;	
+	color: #FF0000;
+}
+.profile-body .nav-tabs .nav-item .btn-save{
+	background-color: #62B75D;
+}
+.profile-body .tab-content, .profile-body .tab-content .tab-pane, .profile-body .tab-content .tab-pane .user-info{
+	width: 100%;
+}
+.profile-body .tab-content .tab-pane .user-info .form-group{
+	display: flex;
+	align-items: center;
+}
+.profile-body .tab-content .tab-pane .user-info .form-group p.label::before,.form-submit .form-group label{
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translate(-50%,-50%);
+	
+}
+
+.profile-body .tab-content .tab-pane .user-info .form-group p{
+	width: 100%;
+}
+
+.form-group i {
+    position: absolute;
+    bottom: 12px;
+    right: 10px; }
+
+.error{
+	font-family: "Poppins-Regular"; 
+	font-size: 16px;
+  }
+.box{
+	position: relative;
+	padding: 0;
+	margin: 0;
+  }
+  .valid {
+	color: green;
+  }
+  
+  .invalid {
+	color: red;
+  }
